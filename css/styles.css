@@ -1,0 +1,260 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --backgroundmain: #2f303a;
+  --text: #212121;
+  --text2: #757575;
+  --select: #2196f3;
+  --background: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background: var(--background);
+  color: var(--text);
+}
+.brand {
+  font-family: "Raleway";
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+.brand2 {
+  color: #000000;
+}
+.brand3 {
+  color: #ffffff;
+}
+
+.contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--text2);
+}
+
+.contact:hover {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--select);
+}
+.subpage {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text);
+}
+.subpage:hover {
+  color: var(--select);
+}
+.currentsubpage {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--select);
+}
+.tab {
+  font-family: "Roboto";
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  letter-spacing: 0.03em;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: none;
+  color: var(--text);
+}
+.tab:hover {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+  background: var(--select);
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.phototitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+}
+.photocat {
+  font-size: 16px;
+  line-height: 1.87;
+
+  letter-spacing: 0.03em;
+
+  color: var(--text2);
+}
+
+footer {
+  background: var(--backgroundmain);
+}
+.header {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  background: var(--backgroundmain);
+}
+.maintitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.maindesc {
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.aboutus {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+
+  letter-spacing: 0.03em;
+}
+.ourteam {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+
+  letter-spacing: 0.03em;
+}
+.teamtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+
+  letter-spacing: 0.03em;
+}
+.teamdesc {
+  font-size: 16px;
+  line-height: 1.18;
+
+  letter-spacing: 0.03em;
+
+  color: var(--text2);
+}
+
+.footeradress {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.list {
+  display: inline-flex;
+}
+.list:not(:last-child) {
+  padding-right: 46px;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+}
+.menu {
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #ececec;
+}
+.listcontact {
+  display: inline-flex;
+  padding-right: 50px;
+}
+.orderbox {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  text-align: center;
+}
+.lorem {
+  justify-content: space-around;
+}
+.lorembox {
+  flex-direction: column;
+}
+.aboutcont {
+  flex-direction: column;
+  text-align: center;
+}
+.listimg {
+  display: inline-flex;
+}
+.team {
+  flex-direction: column;
+  text-align: center;
+  background: #f5f4fa;
+}
+.tabheader {
+  width: 200px;
+  height: 50px;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.ourteamimg {
+  display: table-column;
+}
+
+.footercont {
+  flex-direction: column;
+}
+
+.filter {
+  display: inline-flex;
+}
+.filtercont {
+  margin: auto;
+}
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+}
+.portfolioitem {
+  border: 1px solid #eeeeee;
+}
